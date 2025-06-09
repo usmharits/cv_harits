@@ -24,17 +24,27 @@
       color: #222;
       scroll-behavior: smooth;
     }
-    /* Navbar */
     nav {
-      background-color: #152238; /* navy blue */
-    }
-    nav .nav-link {
-      color: #f0f0f0;
-      font-weight: 500;
-    }
-    nav .nav-link:hover {
-      color: #a1b2c3; /* lighter dusty blue */
-    }
+  background-color: #152238; /* navy blue */
+}
+
+nav .navbar-brand {
+  color: #f0f0f0;
+}
+
+nav .navbar-brand:hover {
+  color: #a1b2c3;
+}
+
+nav .nav-link {
+  color: #f0f0f0;
+  font-weight: 500;
+}
+
+nav .nav-link:hover {
+  color: #a1b2c3; /* lighter dusty blue */
+}
+
     /* Header */
     header {
       padding: 3rem 1rem 2rem;
@@ -276,33 +286,23 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm fixed-top">
-    <div class="container">
-      <a class="navbar-brand text-light fw-bold" href="#">Usamah Al Harits</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav fs-6">
-          <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
-          <li class="nav-item"><a class="nav-link" href="#language">Bahasa</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
-          <li class="nav-item"><a class="nav-link" href="#articles">Contoh Artikel</a></li>
-          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobi</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <nav class="navbar navbar-expand-sm navbar-dark navbar-custom fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-light fw-bold mx-auto" href="#">Usamah Al Harits</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
 
   <!-- Header -->
   <header class="container mt-5 pt-5 animate__animated animate__fadeInDown">
